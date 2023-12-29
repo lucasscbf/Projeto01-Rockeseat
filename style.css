@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  }
+
+  #hero { /*# quer dizer q pega o id*/
+    width: 592px;
+    margin: 0 auto 72px;
+
+  }
+
+  #hero img {
+    margin-bottom: 72px;
+  }
+  
+
+h1 {
+  font-family:  'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56%; /*altura da linha*/
+  font-weight: normal;
+
+  margin-bottom: 32px;
+ 
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+
+}
+
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#footer {
+  margin-bottom: 33px;
+}
+
+.line { /*# -> para usasr id; para usars claas usa "."*/
+  width: 568px;
+  height: 0px;
+  border: 1px #aaaaaa solid;
+  margin: 0 auto 8px; /* posição - 1-cima 2-laterais 3- baixo*/
+  /* 1- cima 2-direita - 3- baixo - 4 esqueda*/
+
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
